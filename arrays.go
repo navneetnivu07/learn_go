@@ -73,8 +73,14 @@ func main() {
 		fmt.Println(student[i])
 	}
 
+	// iterator
 	for _, value := range temp {
 		fmt.Println(value)
+	}
+
+	// iterator with index
+	for i, value := range temp {
+		fmt.Println(i, value)
 	}
 }
 
