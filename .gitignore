@@ -1,0 +1,6 @@
+# testing
+/coverage
+
+#ide
+/.idea
+/.vscode
