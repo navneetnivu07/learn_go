@@ -9,21 +9,21 @@ https://www.youtube.com/watch?v=Q0sKAMal4WQ&t=921s
 
 ## Topics
 
-hello
-var_const
-data_types
-operators
-pointers
-loops
-decision_making
-arrays
-maps
-functions
-recursion
-defer_recover_panic
-struct_interface
-file_io
-webserver
+* hello
+* var_const
+* data_types
+* operators
+* pointers
+* loops
+* decision_making
+* arrays
+* maps
+* functions
+* recursion
+* defer_recover_panic
+* struct_interface
+* file_io
+* webserver
 
 ## Most Recommended Course by Todd McLeod
 
