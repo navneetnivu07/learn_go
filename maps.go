@@ -8,20 +8,33 @@ func main() {
 
 	Student := make(map[string]int)
 	Student["nivu"] = 23
-	Student["shree"] = 21
+	Student["neet"] = 21
 
 	fmt.Println(Student["nivu"])
 	fmt.Println(len(Student))
 
-	Student["vish"] = 22
+	Student["nav"] = 22
 	fmt.Println(len(Student))
 
-	delete(Student, "shree")
+	delete(Student, "neet")
 	fmt.Println(Student)
 
 	fmt.Println(len(Student))
 
-superhero:
-	map[string]map[string]string{}
+	superhero := map[string]map[string]string{
+		"Batman": map[string]string{
+			"RealName": "Bruce Wayne",
+			"City":     "Gotham",
+		},
+	}
+
+	fmt.Println(superhero)
+	fmt.Println(superhero["Batman"]["RealName"])
+	fmt.Println(superhero["Batman"]["City"])
+
+	if temp, hero := superhero["Batman"]; hero {
+		fmt.Println(temp["RealName"], temp["City"])
+
+	}
 
 }
